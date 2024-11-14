@@ -1,0 +1,2 @@
+[2024-11-14 10:21:10,722] INFO The cleaning for partition exo2-0 is aborted and paused (kafka.log.LogCleaner)
+[2024-11-14 10:21:10,723] INFO The cleaning for partition exo2-0 is aborted (kafka.log.LogCleaner)

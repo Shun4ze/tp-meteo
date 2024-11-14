@@ -1,0 +1,1920 @@
+[2024-11-14 09:26:37,918] INFO Reading configuration from: ./kafka_2.12-2.6.0/config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:26:37,921] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:26:37,921] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:26:37,923] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2024-11-14 09:26:37,923] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2024-11-14 09:26:37,923] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2024-11-14 09:26:37,923] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2024-11-14 09:26:37,927] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2024-11-14 09:26:37,956] INFO Reading configuration from: ./kafka_2.12-2.6.0/config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:26:37,957] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:26:37,957] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:26:37,957] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2024-11-14 09:26:37,960] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2024-11-14 09:26:37,974] INFO Server environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,974] INFO Server environment:host.name=localhost (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,975] INFO Server environment:java.version=21.0.4 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,975] INFO Server environment:java.vendor=Microsoft (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,975] INFO Server environment:java.home=/usr/local/sdkman/candidates/java/21.0.4-ms (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,975] INFO Server environment:java.class.path=/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/activation-1.1.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/commons-cli-1.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-api-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-file-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-json-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-scala_2.12-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-client-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-common-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-server-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-scala_2.12-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0-sources.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/log4j-1.2.17.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/paranamer-2.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/reflections-0.9.12.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-collection-compat_2.12-2.1.6.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-java8-compat_2.12-0.9.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-library-2.12.11.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-reflect-2.12.11.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,978] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,978] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,979] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,979] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,979] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,979] INFO Server environment:os.version=6.5.0-1025-azure (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,979] INFO Server environment:user.name=codespace (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,980] INFO Server environment:user.home=/home/codespace (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,980] INFO Server environment:user.dir=/workspaces/tp-meteo (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,980] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,983] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,983] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,985] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,986] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:37,986] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:26:38,000] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2024-11-14 09:26:38,004] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 4 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2024-11-14 09:26:38,008] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2024-11-14 09:26:38,025] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2024-11-14 09:26:38,028] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2024-11-14 09:26:38,032] INFO Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2024-11-14 09:26:38,053] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2024-11-14 09:27:00,753] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:00,767] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:00,782] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:00,800] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:03,798] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:03,812] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:03,825] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:03,839] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:04,543] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:04,559] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:04,574] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:27:04,589] WARN Exception causing close of session 0x0: Len error 1195725856 (org.apache.zookeeper.server.NIOServerCnxn)
+[2024-11-14 09:29:58,537] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2024-11-14 09:29:58,862] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2024-11-14 09:29:58,907] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-11-14 09:29:58,911] INFO starting (kafka.server.KafkaServer)
+[2024-11-14 09:29:58,916] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2024-11-14 09:29:58,935] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:29:58,939] INFO Client environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,939] INFO Client environment:host.name=localhost (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,939] INFO Client environment:java.version=21.0.4 (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,939] INFO Client environment:java.vendor=Microsoft (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,939] INFO Client environment:java.home=/usr/local/sdkman/candidates/java/21.0.4-ms (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,939] INFO Client environment:java.class.path=/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/activation-1.1.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/commons-cli-1.4.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-api-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-file-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-json-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jackson-module-scala_2.12-2.10.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jersey-client-2.28.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jersey-common-2.28.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jersey-server-2.28.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka-streams-scala_2.12-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0-sources.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/log4j-1.2.17.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/paranamer-2.8.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/reflections-0.9.12.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/scala-collection-compat_2.12-2.1.6.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/scala-java8-compat_2.12-0.9.1.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/scala-library-2.12.11.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/scala-reflect-2.12.11.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/workspaces/tp-meteo/./kafka_2.12-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:os.version=6.5.0-1025-azure (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:user.name=codespace (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:user.home=/home/codespace (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,940] INFO Client environment:user.dir=/workspaces/tp-meteo (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,941] INFO Client environment:os.memory.free=989MB (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,941] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,941] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,943] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@75c56eb9 (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:29:58,951] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2024-11-14 09:29:58,964] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:29:58,968] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:29:58,972] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:29:58,974] INFO Socket connection established, initiating session, client: /[0:0:0:0:0:0:0:1]:54260, server: localhost/[0:0:0:0:0:0:0:1]:2181 (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:29:58,978] INFO Creating new log file: log.1 (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2024-11-14 09:29:58,990] INFO Session establishment complete on server localhost/[0:0:0:0:0:0:0:1]:2181, sessionid = 0x100001cf11a0000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:29:58,993] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:29:59,191] INFO Cluster ID = vWtNWUN8S9KIfHMnnhXqpg (kafka.server.KafkaServer)
+[2024-11-14 09:29:59,195] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2024-11-14 09:29:59,235] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.6-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.6-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2024-11-14 09:29:59,246] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.6-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.6-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2024-11-14 09:29:59,292] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:29:59,305] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:29:59,305] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:29:59,339] INFO Log directory /tmp/kafka-logs not found, creating it. (kafka.log.LogManager)
+[2024-11-14 09:29:59,344] INFO Loading logs from log dirs ArrayBuffer(/tmp/kafka-logs) (kafka.log.LogManager)
+[2024-11-14 09:29:59,347] INFO Attempting recovery for all logs in /tmp/kafka-logs since no clean shutdown file was found (kafka.log.LogManager)
+[2024-11-14 09:29:59,356] INFO Loaded 0 logs in 11ms. (kafka.log.LogManager)
+[2024-11-14 09:29:59,368] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2024-11-14 09:29:59,373] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2024-11-14 09:29:59,751] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2024-11-14 09:29:59,782] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2024-11-14 09:29:59,804] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:29:59,806] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:29:59,808] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:29:59,816] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:29:59,831] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2024-11-14 09:29:59,855] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2024-11-14 09:29:59,874] INFO Stat of the created znode at /brokers/ids/0 is: 24,24,1731576599867,1731576599867,1,0,0,72057718342025216,188,0,24
+ (kafka.zk.KafkaZkClient)
+[2024-11-14 09:29:59,875] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://localhost:9092, czxid (broker epoch): 24 (kafka.zk.KafkaZkClient)
+[2024-11-14 09:29:59,950] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:29:59,956] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+[2024-11-14 09:29:59,960] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:29:59,965] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:30:00,002] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2024-11-14 09:30:00,003] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2024-11-14 09:30:00,019] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2024-11-14 09:30:00,030] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 26 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2024-11-14 09:30:00,058] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-11-14 09:30:00,076] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-11-14 09:30:00,086] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2024-11-14 09:30:00,149] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:30:00,207] INFO [SocketServer brokerId=0] Starting socket server acceptors and processors (kafka.network.SocketServer)
+[2024-11-14 09:30:00,210] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2024-11-14 09:30:00,213] INFO [SocketServer brokerId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2024-11-14 09:30:00,213] INFO [SocketServer brokerId=0] Started socket server acceptors and processors (kafka.network.SocketServer)
+[2024-11-14 09:30:00,223] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-11-14 09:30:00,224] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-11-14 09:30:00,224] INFO Kafka startTimeMs: 1731576600214 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-11-14 09:30:00,226] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2024-11-14 09:30:03,481] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:03,497] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:03,514] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:03,531] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:05,886] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:05,902] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:05,915] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:05,931] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:06,471] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:06,493] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:06,517] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:06,540] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:33,248] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:33,264] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:33,280] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:33,296] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,039] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,065] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,092] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,115] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,806] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,820] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,835] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:34,860] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:35,966] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:35,980] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:35,993] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:36,008] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:36,537] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:36,551] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:36,565] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:36,579] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:36,968] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:36,984] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,000] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,019] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,277] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,295] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,309] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,324] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,650] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,677] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,877] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,894] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:37,914] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:38,087] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:38,101] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:38,114] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:38,127] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:38,411] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:38,424] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:38,809] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,495] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,511] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,525] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,541] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,845] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,860] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,874] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:30:39,893] WARN [SocketServer brokerId=0] Unexpected error from /0:0:0:0:0:0:0:1; closing connection (org.apache.kafka.common.network.Selector)
+org.apache.kafka.common.network.InvalidReceiveException: Invalid receive (size = 1195725856 larger than 104857600)
+	at org.apache.kafka.common.network.NetworkReceive.readFrom(NetworkReceive.java:105)
+	at org.apache.kafka.common.network.KafkaChannel.receive(KafkaChannel.java:447)
+	at org.apache.kafka.common.network.KafkaChannel.read(KafkaChannel.java:397)
+	at org.apache.kafka.common.network.Selector.attemptRead(Selector.java:678)
+	at org.apache.kafka.common.network.Selector.pollSelectionKeys(Selector.java:580)
+	at org.apache.kafka.common.network.Selector.poll(Selector.java:485)
+	at kafka.network.Processor.poll(SocketServer.scala:913)
+	at kafka.network.Processor.run(SocketServer.scala:816)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-11-14 09:33:23,410] INFO Unable to read additional data from server sessionid 0x100001cf11a0000, likely server has closed socket, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:24,710] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:24,711] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:26,624] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:26,624] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:28,598] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:28,598] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:28,865] INFO Terminating process due to signal SIGINT (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-11-14 09:33:28,867] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2024-11-14 09:33:28,869] INFO [KafkaServer id=0] Starting controlled shutdown (kafka.server.KafkaServer)
+[2024-11-14 09:33:30,195] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:30,196] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:30,297] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:33:31,769] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:31,770] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:33,540] INFO Terminating process due to signal SIGINT (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-11-14 09:33:33,658] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:33,659] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:35,445] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:35,446] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:36,637] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:36,638] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:38,568] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:38,569] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:39,944] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:39,945] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:40,357] INFO Terminating process due to signal SIGINT (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-11-14 09:33:41,365] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:41,366] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:42,194] INFO Terminating process due to signal SIGINT (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-11-14 09:33:42,894] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:42,894] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:44,703] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:44,703] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:45,817] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:45,817] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:47,064] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:47,065] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:47,317] INFO Terminating process due to signal SIGHUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-11-14 09:33:48,903] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:48,904] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:50,363] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:50,363] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:52,197] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:52,197] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:53,954] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:53,954] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:55,800] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:55,801] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:57,225] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:57,226] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:59,063] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:33:59,064] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:00,860] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:00,860] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:02,214] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:02,215] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:03,873] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:03,874] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:05,947] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:05,948] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:07,127] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:07,128] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:08,695] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:08,696] INFO Socket error occurred: localhost/[0:0:0:0:0:0:0:1]:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:10,362] INFO Reading configuration from: ./kafka_2.12-2.6.0/config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:34:10,365] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:34:10,365] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:34:10,367] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2024-11-14 09:34:10,367] INFO autopurge.purgeInterval set to 0 (org.apache.zookeeper.server.DatadirCleanupManager)
+[2024-11-14 09:34:10,368] INFO Purge task is not scheduled. (org.apache.zookeeper.server.DatadirCleanupManager)
+[2024-11-14 09:34:10,368] WARN Either no config or no quorum defined in config, running  in standalone mode (org.apache.zookeeper.server.quorum.QuorumPeerMain)
+[2024-11-14 09:34:10,373] INFO Log4j 1.2 jmx support found and enabled. (org.apache.zookeeper.jmx.ManagedUtil)
+[2024-11-14 09:34:10,395] INFO Reading configuration from: ./kafka_2.12-2.6.0/config/zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:34:10,396] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:34:10,396] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-11-14 09:34:10,396] INFO Starting server (org.apache.zookeeper.server.ZooKeeperServerMain)
+[2024-11-14 09:34:10,398] INFO zookeeper.snapshot.trust.empty : false (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2024-11-14 09:34:10,417] INFO Server environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,420] INFO Server environment:host.name=localhost (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,420] INFO Server environment:java.version=21.0.4 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,420] INFO Server environment:java.vendor=Microsoft (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,420] INFO Server environment:java.home=/usr/local/sdkman/candidates/java/21.0.4-ms (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,420] INFO Server environment:java.class.path=/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/activation-1.1.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/commons-cli-1.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-api-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-file-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-json-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-scala_2.12-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-client-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-common-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-server-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-scala_2.12-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0-sources.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/log4j-1.2.17.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/paranamer-2.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/reflections-0.9.12.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-collection-compat_2.12-2.1.6.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-java8-compat_2.12-0.9.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-library-2.12.11.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-reflect-2.12.11.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,421] INFO Server environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,421] INFO Server environment:java.io.tmpdir=/tmp (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,421] INFO Server environment:java.compiler=<NA> (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,421] INFO Server environment:os.name=Linux (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,421] INFO Server environment:os.arch=amd64 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,421] INFO Server environment:os.version=6.5.0-1025-azure (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,422] INFO Server environment:user.name=codespace (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,422] INFO Server environment:user.home=/home/codespace (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,422] INFO Server environment:user.dir=/workspaces/tp-meteo (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,422] INFO Server environment:os.memory.free=494MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,422] INFO Server environment:os.memory.max=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,422] INFO Server environment:os.memory.total=512MB (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,424] INFO minSessionTimeout set to 6000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,425] INFO maxSessionTimeout set to 60000 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,425] INFO Created server with tickTime 3000 minSessionTimeout 6000 maxSessionTimeout 60000 datadir /tmp/zookeeper/version-2 snapdir /tmp/zookeeper/version-2 (org.apache.zookeeper.server.ZooKeeperServer)
+[2024-11-14 09:34:10,436] INFO Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory (org.apache.zookeeper.server.ServerCnxnFactory)
+[2024-11-14 09:34:10,439] INFO Configuring NIO connection handler with 10s sessionless connection timeout, 1 selector thread(s), 4 worker threads, and 64 kB direct buffers. (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2024-11-14 09:34:10,443] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
+[2024-11-14 09:34:10,454] INFO zookeeper.snapshotSizeFactor = 0.33 (org.apache.zookeeper.server.ZKDatabase)
+[2024-11-14 09:34:10,456] INFO Reading snapshot /tmp/zookeeper/version-2/snapshot.0 (org.apache.zookeeper.server.persistence.FileSnap)
+[2024-11-14 09:34:10,473] INFO Snapshotting: 0x1c to /tmp/zookeeper/version-2/snapshot.1c (org.apache.zookeeper.server.persistence.FileTxnSnapLog)
+[2024-11-14 09:34:10,493] INFO Using checkIntervalMs=60000 maxPerMinute=10000 (org.apache.zookeeper.server.ContainerManager)
+[2024-11-14 09:34:10,678] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:10,678] INFO Socket connection established, initiating session, client: /127.0.0.1:59578, server: localhost/127.0.0.1:2181 (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:10,687] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x100001cf11a0000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:10,688] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:34:10,704] INFO [KafkaServer id=0] Controlled shutdown succeeded (kafka.server.KafkaServer)
+[2024-11-14 09:34:10,707] INFO [/config/changes-event-process-thread]: Shutting down (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2024-11-14 09:34:10,708] INFO [/config/changes-event-process-thread]: Stopped (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2024-11-14 09:34:10,712] INFO [/config/changes-event-process-thread]: Shutdown completed (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2024-11-14 09:34:10,712] INFO [SocketServer brokerId=0] Stopping socket server request processors (kafka.network.SocketServer)
+[2024-11-14 09:34:10,718] INFO [SocketServer brokerId=0] Stopped socket server request processors (kafka.network.SocketServer)
+[2024-11-14 09:34:10,719] INFO [data-plane Kafka Request Handler on Broker 0], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2024-11-14 09:34:10,721] INFO [data-plane Kafka Request Handler on Broker 0], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2024-11-14 09:34:10,723] INFO [ExpirationReaper-0-AlterAcls]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:10,871] INFO [ExpirationReaper-0-AlterAcls]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:10,871] INFO [ExpirationReaper-0-AlterAcls]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:10,872] INFO [KafkaApi-0] Shutdown complete. (kafka.server.KafkaApis)
+[2024-11-14 09:34:10,872] INFO [ExpirationReaper-0-topic]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,071] INFO [ExpirationReaper-0-topic]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,071] INFO [ExpirationReaper-0-topic]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,073] INFO [TransactionCoordinator id=0] Shutting down. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-11-14 09:34:11,074] INFO [ProducerId Manager 0]: Shutdown complete: last producerId assigned 0 (kafka.coordinator.transaction.ProducerIdManager)
+[2024-11-14 09:34:11,074] INFO [Transaction State Manager 0]: Shutdown complete (kafka.coordinator.transaction.TransactionStateManager)
+[2024-11-14 09:34:11,075] INFO [Transaction Marker Channel Manager 0]: Shutting down (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2024-11-14 09:34:11,075] INFO [Transaction Marker Channel Manager 0]: Stopped (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2024-11-14 09:34:11,075] INFO [Transaction Marker Channel Manager 0]: Shutdown completed (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2024-11-14 09:34:11,075] INFO [TransactionCoordinator id=0] Shutdown complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-11-14 09:34:11,076] INFO [GroupCoordinator 0]: Shutting down. (kafka.coordinator.group.GroupCoordinator)
+[2024-11-14 09:34:11,076] INFO [ExpirationReaper-0-Heartbeat]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,271] INFO [ExpirationReaper-0-Heartbeat]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,271] INFO [ExpirationReaper-0-Heartbeat]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,272] INFO [ExpirationReaper-0-Rebalance]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,471] INFO [ExpirationReaper-0-Rebalance]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,471] INFO [ExpirationReaper-0-Rebalance]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,472] INFO [GroupCoordinator 0]: Shutdown complete. (kafka.coordinator.group.GroupCoordinator)
+[2024-11-14 09:34:11,473] INFO [ReplicaManager broker=0] Shutting down (kafka.server.ReplicaManager)
+[2024-11-14 09:34:11,473] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2024-11-14 09:34:11,473] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2024-11-14 09:34:11,473] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2024-11-14 09:34:11,474] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2024-11-14 09:34:11,475] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2024-11-14 09:34:11,475] INFO [ReplicaAlterLogDirsManager on broker 0] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2024-11-14 09:34:11,476] INFO [ReplicaAlterLogDirsManager on broker 0] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2024-11-14 09:34:11,476] INFO [ExpirationReaper-0-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,533] INFO [ExpirationReaper-0-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,533] INFO [ExpirationReaper-0-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,534] INFO [ExpirationReaper-0-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,733] INFO [ExpirationReaper-0-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,733] INFO [ExpirationReaper-0-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,734] INFO [ExpirationReaper-0-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,934] INFO [ExpirationReaper-0-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,934] INFO [ExpirationReaper-0-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:11,934] INFO [ExpirationReaper-0-ElectLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:12,133] INFO [ExpirationReaper-0-ElectLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:12,133] INFO [ExpirationReaper-0-ElectLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:34:12,137] INFO [ReplicaManager broker=0] Shut down completely (kafka.server.ReplicaManager)
+[2024-11-14 09:34:12,137] INFO Shutting down. (kafka.log.LogManager)
+[2024-11-14 09:34:12,151] INFO Shutdown complete. (kafka.log.LogManager)
+[2024-11-14 09:34:12,156] INFO [ZooKeeperClient Kafka server] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:34:12,157] INFO Creating new log file: log.1d (org.apache.zookeeper.server.persistence.FileTxnLog)
+[2024-11-14 09:34:12,262] INFO EventThread shut down for session: 0x100001cf11a0000 (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:34:12,262] INFO Session: 0x100001cf11a0000 closed (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:34:12,263] INFO [ZooKeeperClient Kafka server] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:34:12,263] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:12,314] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:12,314] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:12,314] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:12,325] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:12,325] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:12,325] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:13,325] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:13,325] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:34:13,326] INFO [SocketServer brokerId=0] Shutting down socket server (kafka.network.SocketServer)
+[2024-11-14 09:34:13,341] INFO [SocketServer brokerId=0] Shutdown completed (kafka.network.SocketServer)
+[2024-11-14 09:34:13,345] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
+[2024-11-14 09:36:32,492] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2024-11-14 09:36:32,641] ERROR Exiting Kafka due to fatal exception (kafka.Kafka$)
+java.nio.file.NoSuchFileException: ./kafka_2.12-2.6.0/config/kafka.properties
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159)
+	at org.apache.kafka.common.utils.Utils.loadProps(Utils.java:623)
+	at org.apache.kafka.common.utils.Utils.loadProps(Utils.java:610)
+	at kafka.Kafka$.getPropsFromArgs(Kafka.scala:51)
+	at kafka.Kafka$.main(Kafka.scala:67)
+	at kafka.Kafka.main(Kafka.scala)
+[2024-11-14 09:37:29,580] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2024-11-14 09:37:29,868] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2024-11-14 09:37:29,913] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2024-11-14 09:37:29,918] INFO starting (kafka.server.KafkaServer)
+[2024-11-14 09:37:29,918] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2024-11-14 09:37:29,947] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:37:29,952] INFO Client environment:zookeeper.version=3.5.8-f439ca583e70862c3068a1f2a7d4d068eec33315, built on 05/04/2020 15:53 GMT (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,952] INFO Client environment:host.name=localhost (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,952] INFO Client environment:java.version=21.0.4 (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,952] INFO Client environment:java.vendor=Microsoft (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,952] INFO Client environment:java.home=/usr/local/sdkman/candidates/java/21.0.4-ms (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,952] INFO Client environment:java.class.path=/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/activation-1.1.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/aopalliance-repackaged-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/argparse4j-0.7.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/audience-annotations-0.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/commons-cli-1.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/commons-lang3-3.8.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-api-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-basic-auth-extension-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-file-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-json-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-mirror-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-mirror-client-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-runtime-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/connect-transforms-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-api-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-locator-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/hk2-utils-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-annotations-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-core-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-databind-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-dataformat-csv-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-datatype-jdk8-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-base-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-jaxrs-json-provider-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-jaxb-annotations-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-paranamer-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jackson-module-scala_2.12-2.10.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.activation-api-1.2.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.annotation-api-1.3.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.inject-2.5.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jakarta.xml.bind-api-2.3.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javassist-3.22.0-CR2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javassist-3.26.0-GA.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javax.servlet-api-3.1.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/javax.ws.rs-api-2.1.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jaxb-api-2.3.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-client-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-common-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-container-servlet-core-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-hk2-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-media-jaxb-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jersey-server-2.28.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-client-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-continuation-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-http-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-io-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-security-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-server-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-servlet-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-servlets-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jetty-util-9.4.24.v20191120.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/jopt-simple-5.0.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-clients-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-log4j-appender-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-examples-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-scala_2.12-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-streams-test-utils-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka-tools-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0-sources.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/kafka_2.12-2.6.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/log4j-1.2.17.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/lz4-java-1.7.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/maven-artifact-3.6.3.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/metrics-core-2.2.0.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-buffer-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-codec-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-common-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-handler-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-resolver-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-native-epoll-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/netty-transport-native-unix-common-4.1.50.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/osgi-resource-locator-1.0.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/paranamer-2.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/plexus-utils-3.2.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/reflections-0.9.12.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/rocksdbjni-5.18.4.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-collection-compat_2.12-2.1.6.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-java8-compat_2.12-0.9.1.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-library-2.12.11.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-logging_2.12-3.9.2.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/scala-reflect-2.12.11.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/slf4j-api-1.7.30.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/slf4j-log4j12-1.7.30.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/snappy-java-1.1.7.3.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/validation-api-2.0.1.Final.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zookeeper-3.5.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zookeeper-jute-3.5.8.jar:/workspaces/tp-meteo/kafka_2.12-2.6.0/bin/../libs/zstd-jni-1.4.4-7.jar (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,953] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,953] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,953] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,953] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,953] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,954] INFO Client environment:os.version=6.5.0-1025-azure (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,954] INFO Client environment:user.name=codespace (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,954] INFO Client environment:user.home=/home/codespace (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,954] INFO Client environment:user.dir=/workspaces/tp-meteo (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,954] INFO Client environment:os.memory.free=989MB (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,954] INFO Client environment:os.memory.max=1024MB (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,954] INFO Client environment:os.memory.total=1024MB (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,956] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=18000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@75c56eb9 (org.apache.zookeeper.ZooKeeper)
+[2024-11-14 09:37:29,960] INFO jute.maxbuffer value is 4194304 Bytes (org.apache.zookeeper.ClientCnxnSocket)
+[2024-11-14 09:37:29,966] INFO zookeeper.request.timeout value is 0. feature enabled= (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:37:29,970] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:37:29,974] INFO Opening socket connection to server localhost/[0:0:0:0:0:0:0:1]:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:37:29,975] INFO Socket connection established, initiating session, client: /[0:0:0:0:0:0:0:1]:58254, server: localhost/[0:0:0:0:0:0:0:1]:2181 (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:37:29,979] INFO Session establishment complete on server localhost/[0:0:0:0:0:0:0:1]:2181, sessionid = 0x1000023d8750000, negotiated timeout = 18000 (org.apache.zookeeper.ClientCnxn)
+[2024-11-14 09:37:29,981] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2024-11-14 09:37:30,154] INFO Cluster ID = vWtNWUN8S9KIfHMnnhXqpg (kafka.server.KafkaServer)
+[2024-11-14 09:37:30,193] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.6-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.6-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2024-11-14 09:37:30,206] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.max.bytes = 57671680
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.6-IV0
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.6-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1048588
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 30000
+	replica.selector.class = null
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	security.providers = null
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = DEFAULT
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 10000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.clientCnxnSocket = null
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 18000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 18000
+	zookeeper.set.acl = false
+	zookeeper.ssl.cipher.suites = null
+	zookeeper.ssl.client.enable = false
+	zookeeper.ssl.crl.enable = false
+	zookeeper.ssl.enabled.protocols = null
+	zookeeper.ssl.endpoint.identification.algorithm = HTTPS
+	zookeeper.ssl.keystore.location = null
+	zookeeper.ssl.keystore.password = null
+	zookeeper.ssl.keystore.type = null
+	zookeeper.ssl.ocsp.enable = false
+	zookeeper.ssl.protocol = TLSv1.2
+	zookeeper.ssl.truststore.location = null
+	zookeeper.ssl.truststore.password = null
+	zookeeper.ssl.truststore.type = null
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2024-11-14 09:37:30,244] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:37:30,244] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:37:30,256] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2024-11-14 09:37:30,280] INFO Loading logs from log dirs ArrayBuffer(/tmp/kafka-logs) (kafka.log.LogManager)
+[2024-11-14 09:37:30,281] INFO Skipping recovery for all logs in /tmp/kafka-logs since clean shutdown file was found (kafka.log.LogManager)
+[2024-11-14 09:37:30,291] INFO Loaded 0 logs in 11ms. (kafka.log.LogManager)
+[2024-11-14 09:37:30,306] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2024-11-14 09:37:30,310] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2024-11-14 09:37:30,715] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2024-11-14 09:37:30,742] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2024-11-14 09:37:30,766] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:30,768] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:30,770] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:30,775] INFO [ExpirationReaper-0-ElectLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:30,783] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2024-11-14 09:37:30,819] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2024-11-14 09:37:30,834] INFO Stat of the created znode at /brokers/ids/0 is: 44,44,1731577050830,1731577050830,1,0,0,72057747993329664,188,0,44
+ (kafka.zk.KafkaZkClient)
+[2024-11-14 09:37:30,835] INFO Registered broker 0 at path /brokers/ids/0 with addresses: PLAINTEXT://localhost:9092, czxid (broker epoch): 44 (kafka.zk.KafkaZkClient)
+[2024-11-14 09:37:30,903] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:30,905] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:30,923] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:30,951] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2024-11-14 09:37:30,956] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2024-11-14 09:37:30,976] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 15 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2024-11-14 09:37:30,992] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:1000,blockEndProducerId:1999) by writing to Zk with path version 2 (kafka.coordinator.transaction.ProducerIdManager)
+[2024-11-14 09:37:31,013] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-11-14 09:37:31,048] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2024-11-14 09:37:31,057] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2024-11-14 09:37:31,099] INFO [ExpirationReaper-0-AlterAcls]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2024-11-14 09:37:31,148] INFO [SocketServer brokerId=0] Starting socket server acceptors and processors (kafka.network.SocketServer)
+[2024-11-14 09:37:31,150] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2024-11-14 09:37:31,153] INFO [SocketServer brokerId=0] Started data-plane acceptor and processor(s) for endpoint : ListenerName(PLAINTEXT) (kafka.network.SocketServer)
+[2024-11-14 09:37:31,153] INFO [SocketServer brokerId=0] Started socket server acceptors and processors (kafka.network.SocketServer)
+[2024-11-14 09:37:31,161] INFO Kafka version: 2.6.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-11-14 09:37:31,162] INFO Kafka commitId: 62abe01bee039651 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-11-14 09:37:31,162] INFO Kafka startTimeMs: 1731577051154 (org.apache.kafka.common.utils.AppInfoParser)
+[2024-11-14 09:37:31,164] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2024-11-14 09:47:17,217] INFO Creating topic mon_topic with configuration {} and initial partition assignment Map(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2024-11-14 09:47:17,283] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(mon_topic-0) (kafka.server.ReplicaFetcherManager)
+[2024-11-14 09:47:17,340] INFO [Log partition=mon_topic-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-11-14 09:47:17,346] INFO Created log for partition mon_topic-0 in /tmp/kafka-logs/mon_topic-0 with properties {compression.type -> producer, message.format.version -> 2.6-IV0, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1048588, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, flush.messages -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2024-11-14 09:47:17,347] INFO [Partition mon_topic-0 broker=0] No checkpointed highwatermark is found for partition mon_topic-0 (kafka.cluster.Partition)
+[2024-11-14 09:47:17,348] INFO [Partition mon_topic-0 broker=0] Log loaded for partition mon_topic-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-11-14 09:47:30,953] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2024-11-14 09:49:45,221] INFO Creating topic tp-meteo with configuration {} and initial partition assignment Map(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2024-11-14 09:49:45,240] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(tp-meteo-0) (kafka.server.ReplicaFetcherManager)
+[2024-11-14 09:49:45,243] INFO [Log partition=tp-meteo-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2024-11-14 09:49:45,244] INFO Created log for partition tp-meteo-0 in /tmp/kafka-logs/tp-meteo-0 with properties {compression.type -> producer, message.format.version -> 2.6-IV0, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1048588, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, flush.messages -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2024-11-14 09:49:45,245] INFO [Partition tp-meteo-0 broker=0] No checkpointed highwatermark is found for partition tp-meteo-0 (kafka.cluster.Partition)
+[2024-11-14 09:49:45,245] INFO [Partition tp-meteo-0 broker=0] Log loaded for partition tp-meteo-0 with initial high watermark 0 (kafka.cluster.Partition)
+[2024-11-14 09:51:24,164] INFO [GroupCoordinator 0]: Removed 0 offsets associated with deleted partitions: mon_topic-0. (kafka.coordinator.group.GroupCoordinator)
+[2024-11-14 09:51:24,190] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(mon_topic-0) (kafka.server.ReplicaFetcherManager)
+[2024-11-14 09:51:24,190] INFO [ReplicaAlterLogDirsManager on broker 0] Removed fetcher for partitions Set(mon_topic-0) (kafka.server.ReplicaAlterLogDirsManager)
+[2024-11-14 09:51:24,194] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(mon_topic-0) (kafka.server.ReplicaFetcherManager)
+[2024-11-14 09:51:24,195] INFO [ReplicaAlterLogDirsManager on broker 0] Removed fetcher for partitions Set(mon_topic-0) (kafka.server.ReplicaAlterLogDirsManager)
+[2024-11-14 09:51:24,202] INFO Log for partition mon_topic-0 is renamed to /tmp/kafka-logs/mon_topic-0.8b6bd89ddcaf41f091f7cff676535565-delete and is scheduled for deletion (kafka.log.LogManager)
+[2024-11-14 09:52:24,203] INFO [Log partition=mon_topic-0, dir=/tmp/kafka-logs] Deleting segments LogSegment(baseOffset=0, size=0, lastModifiedTime=1731577637310, largestTime=1731577637310) (kafka.log.Log)
+[2024-11-14 09:52:24,204] INFO Deleted log /tmp/kafka-logs/mon_topic-0.8b6bd89ddcaf41f091f7cff676535565-delete/00000000000000000000.log.deleted. (kafka.log.LogSegment)
+[2024-11-14 09:52:24,217] INFO Deleted offset index /tmp/kafka-logs/mon_topic-0.8b6bd89ddcaf41f091f7cff676535565-delete/00000000000000000000.index.deleted. (kafka.log.LogSegment)
+[2024-11-14 09:52:24,218] INFO Deleted time index /tmp/kafka-logs/mon_topic-0.8b6bd89ddcaf41f091f7cff676535565-delete/00000000000000000000.timeindex.deleted. (kafka.log.LogSegment)
+[2024-11-14 09:52:24,220] INFO Deleted log for partition mon_topic-0 in /tmp/kafka-logs/mon_topic-0.8b6bd89ddcaf41f091f7cff676535565-delete. (kafka.log.LogManager)
+[2024-11-14 09:57:30,953] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
